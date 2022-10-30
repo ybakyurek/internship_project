@@ -1,0 +1,23 @@
+
+  margin: 0; /* Kenarlardaki boslugu ifade eder, auto dedigimizde ise ortalayip cevre 0 oluyor.*/
+  border: /* padding ile margin arasindaki alani ifade eder*/
+  padding: /* Bu kisim ise margin'in hemen ic  */
+  position: /*absolute relative fixed gibi secenekleri var konumu buna gore belirliyoruz
+  eger ust div relative olursa altindakine absolute dedigimiz zaman alttaki konumunu
+  ona gore belirler */
+  text-align: /* center left right gibi secenekleri soz konusu */
+  font-family: /* cesitli secimler yapilabilir, , ile ayirarak uygun olan fontlar
+  secilebilecgi gibi   <link rel="preconnect" href="https://fonts.googleapis.com">
+  sekildeki gibi head icine font gomulebilir */
+  line-height: /* satir yuksekligini ayarliyor, arada bosluk olmasini istersek bu ise yarar */
+  width : /* 40% gibi bir gosterim ile ekranin ne kadarini kaplayacagina karar veriyoruz. */
+  hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #EAF6F6;
+    border-width:5px;
+    width: 5%;
+    margin: 5rem auto 5rem;
+  } /*  bu kisimda ... seklinde bir gorunum var. margin top right bottom seklinde
+  doldurularak gidilebiliyor.    */
+  /* .p, class olurken id olursa # isaretini kullanmak gerekiyor */
